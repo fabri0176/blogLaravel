@@ -8,6 +8,6 @@ class HomeController extends Controller
 {
     public function __invoke()
     {
-        return "Bienvenido al curso de laravel";
+        return view('home');
     }
 }
